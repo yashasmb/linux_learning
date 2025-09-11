@@ -25,3 +25,8 @@ sudo shutdown -c            # Cancel scheduled shutdown
 
 * `now` → immediate action
 * Broadcast message can notify all logged-in users
+---
+[⬅ Previous: 10_wildcards_regex.md](10_wildcards_regex.md) | [Next: 12_cd.md ➡](12_cd.md)
+
+<hr>
+<div style="display: flex; justify-content: space-between;"><div>[⬅ Previous: 10_wildcards_regex.md](10_wildcards_regex.md)</div><div>[Next: 12_cd.md ➡](12_cd.md)</div></div>

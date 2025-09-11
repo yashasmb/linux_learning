@@ -52,3 +52,8 @@ dirs
 | `pushd <dir>` | Save current dir & move to `<dir>` |
 | `popd`        | Go back to last saved dir          |
 | `dirs`        | Show the directory stack           |
+---
+[⬅ Previous: 12_cd.md](12_cd.md)
+
+<hr>
+<div style="display: flex; justify-content: flex-start;">[⬅ Previous: 12_cd.md](12_cd.md)</div>

@@ -12,3 +12,8 @@
 **Notes:**
 - `dir` → one directory  
 - `dir*` → all files/directories starting with `dir`
+---
+[⬅ Previous: 01_file_viewing.md](01_file_viewing.md) | [Next: 03_links.md ➡](03_links.md)
+
+<hr>
+<div style="display: flex; justify-content: space-between;"><div>[⬅ Previous: 01_file_viewing.md](01_file_viewing.md)</div><div>[Next: 03_links.md ➡](03_links.md)</div></div>

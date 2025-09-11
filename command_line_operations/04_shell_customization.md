@@ -13,3 +13,9 @@ PS1="🐧 \[\e[0;35m\]\u\[\e[0m\]@\[\e[0;36m\]\h\[\e[0m\]:\[\e[0;33m\]\w\[\e[0m\
 * Colors via `\[\e[<color code>m\] ... \[\e[0m\]`
 
 
+
+---
+[⬅ Previous: 03_links.md](03_links.md) | [Next: 05_user_permissions.md ➡](05_user_permissions.md)
+
+<hr>
+<div style="display: flex; justify-content: space-between;"><div>[⬅ Previous: 03_links.md](03_links.md)</div><div>[Next: 05_user_permissions.md ➡](05_user_permissions.md)</div></div>

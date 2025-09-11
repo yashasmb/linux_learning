@@ -8,3 +8,8 @@
 **Notes:**
 - `.gz` files → compressed manual pages  
 - Numbers after man (1–8) → section of manual
+---
+[⬅ Previous: 08_boot_process.md](08_boot_process.md) | [Next: 10_wildcards_regex.md ➡](10_wildcards_regex.md)
+
+<hr>
+<div style="display: flex; justify-content: space-between;"><div>[⬅ Previous: 08_boot_process.md](08_boot_process.md)</div><div>[Next: 10_wildcards_regex.md ➡](10_wildcards_regex.md)</div></div>
