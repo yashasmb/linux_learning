@@ -1,0 +1,14 @@
+# Linux Command Line – Boot Process Overview
+
+**Boot sequence:**
+```
+
+BIOS/UEFI → Bootloader (MBR/GPT) → Kernel → Init → User Login
+
+```
+
+* **BIOS/UEFI** → firmware, hardware init  
+* **Bootloader** → loads OS kernel  
+* **Kernel** → core of OS  
+* **Init/Systemd** → starts system services  
+* **User Login** → shell or GUI
