@@ -54,13 +54,3 @@ dirs
 | `dirs`        | Show the directory stack           |
 ---
 [⬅ Previous: 12_cd.md](12_cd.md)
-
-<hr>
-<div style="display: flex; justify-content: flex-start;">[⬅ Previous: 12_cd.md](12_cd.md)</div>
-
-<hr>
-<div style='display: flex; justify-content: flex-start;'><a href='12_cd.md'>⬅ Previous: 12_cd.md</a></div>
-
----
-| [Previous: 12_cd.md](12_cd.md) |  |
-|--------|--|

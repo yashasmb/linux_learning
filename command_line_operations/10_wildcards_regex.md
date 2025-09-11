@@ -11,16 +11,3 @@
 - More powerful → used in `grep`, `sed`, `awk`
 ---
 [⬅ Previous: 09_search_locate.md](09_search_locate.md) | [Next: 11_shutdown.md ➡](11_shutdown.md)
-
-<hr>
-<div style="display: flex; justify-content: space-between;"><div>[⬅ Previous: 09_search_locate.md](09_search_locate.md)</div><div>[Next: 11_shutdown.md ➡](11_shutdown.md)</div></div>
-
-<hr>
-<div style='display: flex; justify-content: space-between;'>
-  <div><a href='09_search_locate.md'>⬅ Previous: 09_search_locate.md</a></div>
-  <div><a href='11_shutdown.md'>Next: 11_shutdown.md ➡</a></div>
-</div>
-
----
-| [Previous: 09_search_locate.md](09_search_locate.md) | [Next: 11_shutdown.md](11_shutdown.md) |
-|--------|---------|
