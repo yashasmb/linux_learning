@@ -13,3 +13,9 @@
 
 <hr>
 <div style="display: flex; justify-content: space-between;"><div>[⬅ Home](index.md)</div><div>[Next: 02_file_directory_management.md ➡](02_file_directory_management.md)</div></div>
+
+<hr>
+<div style='display: flex; justify-content: space-between;'>
+  <div><a href='index.md'>⬅ Home</a></div>
+  <div><a href='02_file_directory_management.md'>Next: 02_file_directory_management.md ➡</a></div>
+</div>

@@ -17,3 +17,9 @@
 
 <hr>
 <div style="display: flex; justify-content: space-between;"><div>[⬅ Previous: 01_file_viewing.md](01_file_viewing.md)</div><div>[Next: 03_links.md ➡](03_links.md)</div></div>
+
+<hr>
+<div style='display: flex; justify-content: space-between;'>
+  <div><a href='01_file_viewing.md'>⬅ Previous: 01_file_viewing.md</a></div>
+  <div><a href='03_links.md'>Next: 03_links.md ➡</a></div>
+</div>

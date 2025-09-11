@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DIR="./"  # folder with Markdown files
+DIR="./"
 
 FILES=(
   "01_file_viewing.md"
@@ -22,25 +22,30 @@ for i in "${!FILES[@]}"; do
   FILE="${FILES[$i]}"
   
   if [ $i -eq 0 ]; then
-    PREV="[⬅ Home](index.md)"
+    PREV="<a href='index.md'>⬅ Home</a>"
   else
-    PREV="[⬅ Previous: ${FILES[$i-1]}](${FILES[$i-1]})"
+    PREV="<a href='${FILES[$i-1]}'>⬅ Previous: ${FILES[$i-1]}</a>"
   fi
 
   if [ $i -eq $((${#FILES[@]} - 1)) ]; then
     NEXT=""
   else
-    NEXT="[Next: ${FILES[$i+1]} ➡](${FILES[$i+1]})"
+    NEXT="<a href='${FILES[$i+1]}'>Next: ${FILES[$i+1]} ➡</a>"
   fi
 
-  # Use HTML flexbox for left/right alignment
+  # HTML flexbox for left/right links
   if [ -z "$NEXT" ]; then
-    NAV="<hr>\n<div style=\"display: flex; justify-content: flex-start;\">$PREV</div>"
+    NAV="<hr>
+<div style='display: flex; justify-content: flex-start;'>$PREV</div>"
   else
-    NAV="<hr>\n<div style=\"display: flex; justify-content: space-between;\"><div>$PREV</div><div>$NEXT</div></div>"
+    NAV="<hr>
+<div style='display: flex; justify-content: space-between;'>
+  <div>$PREV</div>
+  <div>$NEXT</div>
+</div>"
   fi
 
   echo -e "\n$NAV" >> "$DIR/$FILE"
 done
 
-echo "Navigation links (left/right) added to all files!"
+echo "Clickable left/right navigation links added to all files!"

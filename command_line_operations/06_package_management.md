@@ -20,3 +20,9 @@
 
 <hr>
 <div style="display: flex; justify-content: space-between;"><div>[⬅ Previous: 05_user_permissions.md](05_user_permissions.md)</div><div>[Next: 07_virtual_terminals.md ➡](07_virtual_terminals.md)</div></div>
+
+<hr>
+<div style='display: flex; justify-content: space-between;'>
+  <div><a href='05_user_permissions.md'>⬅ Previous: 05_user_permissions.md</a></div>
+  <div><a href='07_virtual_terminals.md'>Next: 07_virtual_terminals.md ➡</a></div>
+</div>

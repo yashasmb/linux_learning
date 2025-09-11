@@ -8,3 +8,9 @@
 
 <hr>
 <div style="display: flex; justify-content: space-between;"><div>[⬅ Previous: 06_package_management.md](06_package_management.md)</div><div>[Next: 08_boot_process.md ➡](08_boot_process.md)</div></div>
+
+<hr>
+<div style='display: flex; justify-content: space-between;'>
+  <div><a href='06_package_management.md'>⬅ Previous: 06_package_management.md</a></div>
+  <div><a href='08_boot_process.md'>Next: 08_boot_process.md ➡</a></div>
+</div>
