@@ -20,3 +20,7 @@
   <div><a href='09_search_locate.md'>⬅ Previous: 09_search_locate.md</a></div>
   <div><a href='11_shutdown.md'>Next: 11_shutdown.md ➡</a></div>
 </div>
+
+---
+| [Previous: 09_search_locate.md](09_search_locate.md) | [Next: 11_shutdown.md](11_shutdown.md) |
+|--------|---------|

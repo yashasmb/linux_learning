@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DIR="./"
+DIR="./"  # directory with your Markdown files
 
 FILES=(
   "01_file_viewing.md"
@@ -21,31 +21,29 @@ FILES=(
 for i in "${!FILES[@]}"; do
   FILE="${FILES[$i]}"
   
+  # Determine previous link
   if [ $i -eq 0 ]; then
-    PREV="<a href='index.md'>⬅ Home</a>"
+    PREV="[Home](index.md)"
   else
-    PREV="<a href='${FILES[$i-1]}'>⬅ Previous: ${FILES[$i-1]}</a>"
+    PREV="[Previous: ${FILES[$i-1]}](${FILES[$i-1]})"
   fi
 
+  # Determine next link
   if [ $i -eq $((${#FILES[@]} - 1)) ]; then
     NEXT=""
   else
-    NEXT="<a href='${FILES[$i+1]}'>Next: ${FILES[$i+1]} ➡</a>"
+    NEXT="[Next: ${FILES[$i+1]}](${FILES[$i+1]})"
   fi
 
-  # HTML flexbox for left/right links
+  # Create navigation table
   if [ -z "$NEXT" ]; then
-    NAV="<hr>
-<div style='display: flex; justify-content: flex-start;'>$PREV</div>"
+    NAV="\n---\n| $PREV |  |\n|--------|--|"
   else
-    NAV="<hr>
-<div style='display: flex; justify-content: space-between;'>
-  <div>$PREV</div>
-  <div>$NEXT</div>
-</div>"
+    NAV="\n---\n| $PREV | $NEXT |\n|--------|---------|"
   fi
 
-  echo -e "\n$NAV" >> "$DIR/$FILE"
+  # Append table to file
+  echo -e "$NAV" >> "$DIR/$FILE"
 done
 
-echo "Clickable left/right navigation links added to all files!"
+echo "GitHub-compatible previous/next navigation tables added to all files!"

@@ -16,3 +16,7 @@
   <div><a href='02_file_directory_management.md'>⬅ Previous: 02_file_directory_management.md</a></div>
   <div><a href='04_shell_customization.md'>Next: 04_shell_customization.md ➡</a></div>
 </div>
+
+---
+| [Previous: 02_file_directory_management.md](02_file_directory_management.md) | [Next: 04_shell_customization.md](04_shell_customization.md) |
+|--------|---------|

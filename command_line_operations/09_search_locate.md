@@ -19,3 +19,7 @@
   <div><a href='08_boot_process.md'>⬅ Previous: 08_boot_process.md</a></div>
   <div><a href='10_wildcards_regex.md'>Next: 10_wildcards_regex.md ➡</a></div>
 </div>
+
+---
+| [Previous: 08_boot_process.md](08_boot_process.md) | [Next: 10_wildcards_regex.md](10_wildcards_regex.md) |
+|--------|---------|

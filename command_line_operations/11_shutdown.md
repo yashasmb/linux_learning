@@ -36,3 +36,7 @@ sudo shutdown -c            # Cancel scheduled shutdown
   <div><a href='10_wildcards_regex.md'>⬅ Previous: 10_wildcards_regex.md</a></div>
   <div><a href='12_cd.md'>Next: 12_cd.md ➡</a></div>
 </div>
+
+---
+| [Previous: 10_wildcards_regex.md](10_wildcards_regex.md) | [Next: 12_cd.md](12_cd.md) |
+|--------|---------|

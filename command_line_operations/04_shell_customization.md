@@ -25,3 +25,7 @@ PS1="🐧 \[\e[0;35m\]\u\[\e[0m\]@\[\e[0;36m\]\h\[\e[0m\]:\[\e[0;33m\]\w\[\e[0m\
   <div><a href='03_links.md'>⬅ Previous: 03_links.md</a></div>
   <div><a href='05_user_permissions.md'>Next: 05_user_permissions.md ➡</a></div>
 </div>
+
+---
+| [Previous: 03_links.md](03_links.md) | [Next: 05_user_permissions.md](05_user_permissions.md) |
+|--------|---------|
