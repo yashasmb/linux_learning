@@ -1,0 +1,17 @@
+total 60
+-rw-rw-r-- 1 ymb ymb  621 Sep 11 14:15 01_file_viewing.md
+-rw-rw-r-- 1 ymb ymb  814 Sep 11 14:15 02_file_directory_management.md
+-rw-rw-r-- 1 ymb ymb  488 Sep 11 14:16 03_links.md
+-rw-rw-r-- 1 ymb ymb  474 Sep 11 14:15 04_shell_customization.md
+-rw-rw-r-- 1 ymb ymb  399 Sep 11 14:15 05_user_permissions.md
+-rw-rw-r-- 1 ymb ymb 1015 Sep 11 14:15 06_package_management.md
+-rw-rw-r-- 1 ymb ymb  330 Sep 11 14:15 07_virtual_terminals.md
+-rw-rw-r-- 1 ymb ymb  469 Sep 11 14:15 08_boot_process.md
+-rw-rw-r-- 1 ymb ymb  587 Sep 11 14:15 09_search_locate.md
+-rw-rw-r-- 1 ymb ymb  677 Sep 11 14:15 10_wildcards_regex.md
+-rw-rw-r-- 1 ymb ymb 1187 Sep 11 14:15 11_shutdown.md
+-rw-rw-r-- 1 ymb ymb 1505 Sep 11 14:15 12_cd.md
+-rw-rw-r-- 1 ymb ymb  792 Sep 11 14:15 13_pushd_popd.md
+-rw-rw-r-- 1 ymb ymb  255 Sep 15 02:11 14_io_redirection_pipe.md
+-rw-rw-r-- 1 ymb ymb    0 Sep 15 02:19 15_searching_for_files.md
+-rw-rw-r-- 1 ymb ymb  956 Sep 11 14:24 index.md
