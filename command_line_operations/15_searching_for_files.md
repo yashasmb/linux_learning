@@ -27,6 +27,16 @@ Update database (root privilege usually required):
 ```bash
 $ sudo updatedb
 ```
+## 🔹 Wildcards and Matching Files
+
+| Wildcard  | Result | Example |
+|-----------|---------|---------|
+| `?`       | Matches any **single character** | `ls file?.txt` → matches `file1.txt`, `fileA.txt`, but not `file12.txt` |
+| `*`       | Matches any **string of characters** | `ls *.txt` → matches `a.txt`, `notes.txt`, `data123.txt` |
+| `[set]`   | Matches any **character in the set** | `ls file[adf].txt` → matches `filea.txt`, `filed.txt`, `filef.txt` |
+| `[!set]`  | Matches any character **not in the set** | `ls file[!ad].txt` → matches `fileb.txt`, `filez.txt`, but not `filea.txt` or `filed.txt` |
+
+✅ Wildcards are expanded **by the shell** before commands run → powerful for pattern matching.  
 
 
 
